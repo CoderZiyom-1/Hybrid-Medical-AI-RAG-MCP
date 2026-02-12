@@ -58,3 +58,60 @@ Hybrid reasoning (RAG + MCP)
 Medical hallucination control
 
 Streamlit chat interface
+
+**Setup Instructions**
+
+1. Install Ollama
+https://ollama.com
+
+
+Pull model:
+
+ollama pull mistral
+
+2. Install dependencies
+pip install -r requirements.txt
+
+3. Ingest PDFs
+
+Update path inside:
+
+data_ingestion.py
+
+
+Then run:
+
+python data_ingestion.py
+
+4. Run App
+streamlit run app.py
+
+**Use Cases**
+
+Clinical decision support
+
+Medical Q&A from PDFs
+
+Offline hospital AI assistant
+
+Research document analysis
+
+Future Improvements
+
+Multi-document support
+
+Voice input
+
+Real-time EHR integration
+
+Author
+
+Moyiz khan
+
+
+
+
+Then add to README under Demo section:
+
+![Demo](screenshots/demo.png)
+
