@@ -34,12 +34,18 @@ MCP (Model Context Protocol)
 
 **Architecture**
 
-1️⃣ PDF Loader → Extracts medical knowledge
-2️⃣ Text Chunking → Splits into embeddings
-3️⃣ FAISS → Stores semantic vectors
-4️⃣ RAG → Retrieves relevant medical context
-5️⃣ MCP → Fetches external verified info
-6️⃣ LLM → Generates grounded responses
+1. PDF Loader → Extracts medical knowledge
+
+2. Text Chunking → Splits into embeddings
+
+3. FAISS → Stores semantic vectors
+
+4. RAG → Retrieves relevant medical context
+
+5. MCP → Fetches external verified info
+
+6. LLM → Generates grounded responses
+
 
 **Features**
 
