@@ -70,6 +70,7 @@ Pull model:
 ollama pull mistral
 
 2. Install dependencies
+
 pip install -r requirements.txt
 
 3. Ingest PDFs
@@ -84,6 +85,7 @@ Then run:
 python data_ingestion.py
 
 4. Run App
+
 streamlit run app.py
 
 **Use Cases**
@@ -107,11 +109,3 @@ Real-time EHR integration
 Author
 
 Moyiz khan
-
-
-
-
-Then add to README under Demo section:
-
-![Demo](screenshots/demo.png)
-
